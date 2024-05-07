@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: color #ec6060 ;
+    }
+.div1 {
+    padding: 0;
+    margin: 0;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2023/10/26/08/24/autumn-8342089_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    }
+.para1 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    } 
+.para2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    } 
+.para2 {
+    padding: 0;
+    margin: 0;
+    
+    } 
+p {
+    font-size: large;
+    font-family:'Lucida Sans Unicode';
+    color: #072121;
+}
+h1 {
+    font-size: larger;
+    font-family:'Lucida Sans Unicode';
+    color: #020f0f;
+}
+@media screen and (min-width: 1024px) {
+    .div1 {
+        height: 50vh;
+    }
+}
